@@ -1,0 +1,29 @@
+.App {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.middleArrows {
+  display: inline-block;
+}
+.Arrows {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+.highlight {
+  background-color: aqua;
+}
